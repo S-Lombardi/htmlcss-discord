@@ -35,46 +35,48 @@ header > .container {
     padding-top: 10px;
     padding-bottom:10px;
 }
-
-/*Col logo-link-login  */
-header .col-60{
-    text-align: center;
-    line-height: 30px;
-}
-
+/*COL LOGO*/
 header .col-20{
-    line-height: 30px;
+    height: 50px;
+    width: 20%;
+    border: 1px dashed black;
+    line-height: 50px;
     padding-left: 10px;
 }
 
+header img{
+    vertical-align: middle;
+}
+
+/* COL LINKs */
+header .col-60{
+    height: 50px;
+    width: 60%;
+    border: 1px dashed black;
+    text-align: center;
+    line-height: 50px;
+    
+}
+header .col-60 li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 25px;
+}
+.link-style{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+/*COL PULSANTE ACCEDI*/
 header .col-20:last-child{
     text-align: end;
     padding-right: 10px;
 }
-.col-20{
-    height: 30px;
-    width: 20%;
-    border: 1px dashed black;
+header input[type="button"]{
+    padding: 10px 10px 10px 10px;
+    font-size: 13px;
 }
-.col-60{
-    height: 30px;
-    width: 60%;
-    border: 1px dashed black;
-}
-/* LINK HEADER */
-header .col-60 li{
-    list-style-type: none;
-    display: inline-block;
-}
-.bgItem1 {
-    background-image: url(../img/item1.svg);
-    background-size: cover;
-}
-header .col-60 a{
-    text-decoration: none;
-}
-
-/* FINE LINK HEADER */
 
 /* FINE HEADER */
 
@@ -117,14 +119,14 @@ header .col-60 a{
     justify-content: space-evenly;
 }
 
-.button-jumbotron input[type="button"]{
+.button-style{
     padding: 10px 20px 10px 20px;
     border-radius: 23px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     border: none;
+    background-color: white;
 }
-
 .dark{
     color: white;
     background-color: #23272a;
@@ -171,7 +173,7 @@ header .col-60 a{
 }
 
 .immagini-laterali{
-    width: 70%;
+    min-width: 70%;
 
 }
 /* Fine Contentuto prima riga */
