@@ -27,7 +27,7 @@ body{
 
 /* HEADER */
 header{
-    background-color:rgb(153, 209, 209);
+    background-color:  #3161e0;
 }
 
 header > .container {
@@ -77,13 +77,11 @@ header .col-60 a{
 
 /* FINE HEADER */
 
-
-
 /* INIZIO MAIN */
 /* JUMBOTRON */
 #jumbotron{
     background-image: url(../img/jumbo.png);
-    height: 400px;
+    height: 600px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -95,13 +93,15 @@ header .col-60 a{
 .col-70 h1{
     text-align: center;
     color: white;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 45px;
 }
-
 .col-70 p{
     text-align: center;
     color: white;
     padding-bottom: 15px;
+    line-height: 25px;
 }
 .col-70{
     width: 70%;
@@ -116,6 +116,19 @@ header .col-60 a{
     justify-content: space-evenly;
 }
 
+.button-jumbotron input[type="button"]{
+    padding: 10px 20px 10px 20px;
+    border-radius: 23px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+
+.dark{
+    color: white;
+    background-color: #23272a;
+}
+
 /* FINE PULSANTI JUMBOTRON */
 /* FINE JUMBOTRON */
 
@@ -124,32 +137,36 @@ header .col-60 a{
 .background-color:nth-child(odd){
     background-color: rgb(194, 194, 194);
 }
-/* Prima riga */
-.col-65{
-    width: 65%;
-    min-height: 300px;
-    border: 1px dashed black;
-}
-
+/* PRIMA RIGA */
 .col-35{
     width: 35%;
-   
-
-    border: 1px dashed black;
-}
-
-.col-35 h2 {
-    font-size: 50px;;
-}
-.immaginiLaterali {
-    width: 100%;
+    border: 1px dashed black; 
+    padding-top: 30px;
 }
 .col-55{
     width: 55%;
-    
-
     border: 1px dashed black;
+    display: flex;
+    align-items: start;
+    justify-content: start;
 }
+/* Contentuto prima riga */
+.col-35 h2 {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.col-35 p{
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.immagini-laterali{
+    width: 70%;
+
+}
+/* Fine Contentuto prima riga */
+/* FINE PRIMA RIGA */
 
 /* Seconda riga */
 .invert-order{
