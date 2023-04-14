@@ -18,6 +18,7 @@ body{
 }
 .row{
     display: flex;
+
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -134,7 +135,7 @@ header .col-60 a{
 
 
 /* SEZIONE CENTRALE*/
-.background-color:nth-child(odd){
+.wrapper:nth-child(odd){
     background-color: rgb(194, 194, 194);
 }
 /* PRIMA RIGA */
@@ -145,6 +146,14 @@ header .col-60 a{
 }
 .col-55{
     width: 55%;
+    border: 1px dashed black;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.wrapper .col-70{
+    width: 70%;
     border: 1px dashed black;
     display: flex;
     align-items: start;
@@ -195,11 +204,11 @@ header .col-60 a{
     border: 1px dashed white;
 }
 
-.background-color:last-child{
+.wrapper:last-child{
     background-color: black;
 }
 
-.background-color:last-child .container{
+.wrapper:last-child .container{
     padding-top: 10px;
 }
 /* FINE SEZIONE CENTRALE*/
