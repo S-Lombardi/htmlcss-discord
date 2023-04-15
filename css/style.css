@@ -32,7 +32,7 @@ body{
    justify-content: flex-start;
 }
 
-/* Utilità Pulsanti */
+/* Utilità STYLE */
 .min-button{
    padding: 10px 10px 10px 10px;
    font-size: 13px;
@@ -59,7 +59,12 @@ body{
    background-color:#909ddf;
 
 }
-/* Fine Utilità Pulsanti */
+.link-style{
+   text-decoration: none;
+   color: white;
+   font-size: 13px;
+}
+/* Fine Utilità STYLE */
 /* FINE UTILITà */
 
 
@@ -99,18 +104,12 @@ header .col-60 li{
    display: inline-block;
    padding-left: 25px;
 }
-.link-style{
-   text-decoration: none;
-   color: white;
-   font-size: 15px;
-}
 
 /*COL header PULSANTE ACCEDI*/
 header .col-20:last-child{
    text-align: end;
    padding-right: 10px;
 }
-
 /* FINE HEADER */
 
 /* INIZIO MAIN */
@@ -196,12 +195,12 @@ header .col-20:last-child{
 /* Fine Contentuto prima riga */
 /* FINE PRIMA RIGA */
 
-/* Seconda riga */
+/* SECONDA RIGA */
 .invert-order{
    order:-1;
 }
 
-/* Quarta riga-BIG */
+/* QUARTA RIGA-BIG */
 .col-100{
    width: 100%;
    border: 1px dashed black;
@@ -222,76 +221,97 @@ header .col-20:last-child{
    font-size: 15px;
    text-align: center;
 }
-
-/* Plsante quarta riga- BIG*/
+/* Testo e Pulsante- BIG*/
 .col-100 section{
-text-align: center;
+   text-align: center;
 }
-
 .col-100 h3{
+   margin-bottom: 30px;
    line-height: 0px;
-   margin-bottom: 35px;
 }
-
 .col-100 section img{
-width: 360px;
-line-height: 0px;
-}
+   width: 360px;
 
-/* Quinta riga*/
-.col-40{
-   width: 40%;
-   height: 300px;
-   background-color: rgb(233, 157, 157);
-   border: 1px dashed black;
 }
-.col-18{
-   width: 18%;
-   height: 300px;
-   background-color: rgb(79, 167, 167);
-   border: 1px dashed white;
-}
+.col-100 section:last-child{
+   margin: 30px;
 
-.wrapper:last-child{
-   background-color: black;
-}
-
-.wrapper:last-child .container{
-   padding-top: 10px;
 }
 /* FINE SEZIONE CENTRALE*/
 /* FINE MAIN */
 
-/* FOOTER */
 
-.col-footer{
-   width: 100%;
+/* FOOTER */
+/* PRIMA COL loghi-pagine*/
+.col-40{
+   width: 40%;
+   height: 300px;
    border: 1px dashed black;
 }
+/* Titolo PRIMA COL*/
+footer .col-40 h3{
+   font-size: 25px;
+   color: #909ddf;
+}
+/* img bandiera-ita*/
+footer .col-40 img{
+   width: 20px;
+   margin-top: 20px;
+}
+footer .col-40 ul{
+   list-style-type: none;
+   display: inline-block;
+   text-decoration: none;
+}
+/* FINE PRIMA COL loghi-pagine*/
 
-footer .col-footer{
+/* QUATTRO COL - Link footer*/
+.col-18{
+   width: 18%;
+   height: 300px;
+   border: 1px dashed rgb(2, 1, 1);
+}
+/* COL 1*/
+/* Prodotto*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper:last-child .container{
+   padding-top: 10px;
+   padding-bottom: 30px;          
+}
+/* Logo----Pulsante */
+.col-footer{
+   width: 100%;
    height: 50px;
-   background-color: rgb(162, 235, 192);
+   border: 1px dashed rgb(7, 6, 6);
+   border-top: 1px solid red;
+   background-color: rgb(90, 90, 117);
    display: flex;
    align-items: center;
    justify-content: space-between;
-   border: none;
 }
-
 footer .container{
-   padding-bottom: 0px;
    padding-top: 10px;
 }
 
 footer{
-   border-top: 1px solid white ;
+   border-top: 1px solid rgb(251, 251, 251);
 }
 
-footer input{
-   background-color: rgb(241, 207, 228);
-   border: 1px dashed black;
-   padding: 3px;
-}
 /* FINE FOOTER */
 
 
