@@ -1,81 +1,114 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
 }
 
 /* UTILITà */
 .container{
-    width: 70%;
-    margin: auto;
-    /* border: 2px solid black; */
-    padding-top: 30px;
-    padding-bottom: 30px;
+   width: 70%;
+   margin: auto;
+   /* border: 2px solid black; */
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
 .row{
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
 }
+.flex-end{
+   display: flex;
+   justify-content: flex-end;
+}
+
+.flex-start{
+   display: flex;
+   justify-content: flex-start;
+}
+
+/* Utilità Pulsanti */
+.min-button{
+   padding: 10px 10px 10px 10px;
+   font-size: 13px;
+   border-radius: 20px;
+   border: none;
+   font-family: 'Roboto', sans-serif;
+   background-color: white;
+}
+
+.max-button{
+   padding: 10px 20px 10px 20px;
+   border-radius: 23px;
+   font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+   border: none;
+   background-color: white;
+}
+.dark{
+   color: white;
+   background-color: #23272a;
+}
+.violet{
+   color: white;
+   background-color:#909ddf;
+
+}
+/* Fine Utilità Pulsanti */
 /* FINE UTILITà */
 
 
 /* HEADER */
 header{
-    background-color:  #3161e0;
+   background-color:#3161e0;
 }
 
 header > .container {
-    padding-top: 10px;
-    padding-bottom:10px;
+   padding-top: 10px;
+   padding-bottom:10px;
 }
-/*COL LOGO*/
+/*COL header LOGO*/
 header .col-20{
-    height: 50px;
-    width: 20%;
-    border: 1px dashed black;
-    line-height: 50px;
-    padding-left: 10px;
+   height: 50px;
+   width: 20%;
+   border: 1px dashed black;
+   line-height: 50px;
+   padding-left: 10px;
 }
 
 header img{
-    vertical-align: middle;
+   vertical-align: middle;
 }
 
-/* COL LINKs */
+/* COL header LINKs */
 header .col-60{
-    height: 50px;
-    width: 60%;
-    border: 1px dashed black;
-    text-align: center;
-    line-height: 50px;
-    
+height: 50px;
+   width: 60%;
+   border: 1px dashed black;
+   text-align: center;
+   line-height: 50px;
+   
 }
 header .col-60 li{
-    list-style-type: none;
-    display: inline-block;
-    padding-left: 25px;
+   list-style-type: none;
+   display: inline-block;
+   padding-left: 25px;
 }
 .link-style{
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
+   text-decoration: none;
+   color: white;
+   font-size: 15px;
 }
 
-/*COL PULSANTE ACCEDI*/
+/*COL header PULSANTE ACCEDI*/
 header .col-20:last-child{
-    text-align: end;
-    padding-right: 10px;
-}
-header input[type="button"]{
-    padding: 10px 10px 10px 10px;
-    font-size: 13px;
+   text-align: end;
+   padding-right: 10px;
 }
 
 /* FINE HEADER */
@@ -83,97 +116,81 @@ header input[type="button"]{
 /* INIZIO MAIN */
 /* JUMBOTRON */
 #jumbotron{
-    background-image: url(../img/jumbo.png);
-    height: 600px;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   background-image: url(../img/jumbo.png);
+   height: 600px;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 /* TESTO JUMBOTRON */
 .col-70 h1{
-    text-align: center;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    font-size: 45px;
+   text-align: center;
+   color: white;
+   padding-top: 20px;
+   padding-bottom: 30px;
+   font-size: 45px;
 }
 .col-70 p{
-    text-align: center;
-    color: white;
-    padding-bottom: 15px;
-    line-height: 25px;
+   text-align: center;
+   color: white;
+   padding-bottom: 15px;
+   line-height: 25px;
 }
 .col-70{
-    width: 70%;
-    /* height: 400px; */
-    border: 1px dashed black;
+   width: 70%;
+   /* height: 400px; */
+   border: 1px dashed black;
 }
 /* FINE TESTO JUMBOTRON */
 
 /* PULSANTI JUMBOTRON */
 .button-jumbotron{
-    display: flex;
-    justify-content: space-evenly;
+   display: flex;
+   justify-content: space-evenly;
 }
-
-.button-style{
-    padding: 10px 20px 10px 20px;
-    border-radius: 23px;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    border: none;
-    background-color: white;
-}
-.dark{
-    color: white;
-    background-color: #23272a;
-}
-
 /* FINE PULSANTI JUMBOTRON */
 /* FINE JUMBOTRON */
 
 
 /* SEZIONE CENTRALE*/
 .wrapper:nth-child(odd){
-    background-color: rgb(194, 194, 194);
+   background-color: rgb(194, 194, 194);
 }
 /* PRIMA RIGA */
 .col-35{
-    width: 35%;
-    border: 1px dashed black; 
-    padding-top: 30px;
+   width: 35%;
+   border: 1px dashed black; 
+   padding-top: 30px;
 }
 .col-55{
-    width: 55%;
-    border: 1px dashed black;
-    display: flex;
-    align-items: start;
-    justify-content: start;
+   width: 55%;
+   border: 1px dashed black;
+   display: flex;
+   align-items: start;
+   justify-content: start;
 }
 
 .wrapper .col-70{
-    width: 70%;
-    border: 1px dashed black;
-    display: flex;
-    align-items: start;
-    justify-content: start;
+   width: 70%;
+   border: 1px dashed black;
+   
 }
 /* Contentuto prima riga */
 .col-35 h2 {
-    font-size: 35px;
-    padding-bottom: 20px;
+   font-size: 35px;
+   padding-bottom: 20px;
 }
 
 .col-35 p{
-    line-height: 25px;
-    font-size: 15px;
+   line-height: 25px;
+   font-size: 15px;
 }
 
 .immagini-laterali{
-    min-width: 50%;
+   min-width: 50%;
 
 }
 /* Fine Contentuto prima riga */
@@ -181,79 +198,99 @@ header input[type="button"]{
 
 /* Seconda riga */
 .invert-order{
-    order:-1;
+   order:-1;
 }
 
 /* Quarta riga-BIG */
 .col-100{
-    width: 100%;
-    border: 1px dashed black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+   width: 100%;
+   border: 1px dashed black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 
 .col-100 h2{
-    text-align: center;
-    font-size: 35px;
-    padding-bottom: 20px;
-    padding-top: 30px;
+   text-align: center;
+   font-size: 35px;
+   padding-bottom: 20px;
+   padding-top: 30px;
 }
 
 .col-100 p{
-    line-height: 25px;
-    font-size: 15px;
-    text-align: center;
+   line-height: 25px;
+   font-size: 15px;
+   text-align: center;
+}
 
+/* Plsante quarta riga- BIG*/
+.col-100 section{
+text-align: center;
+}
+
+.col-100 h3{
+   line-height: 0px;
+   margin-bottom: 35px;
+}
+
+.col-100 section img{
+width: 360px;
+line-height: 0px;
 }
 
 /* Quinta riga*/
 .col-40{
-    width: 40%;
-    height: 300px;
-    background-color: rgb(233, 157, 157);
-    border: 1px dashed black;
+   width: 40%;
+   height: 300px;
+   background-color: rgb(233, 157, 157);
+   border: 1px dashed black;
 }
 .col-18{
-    width: 18%;
-    height: 300px;
-    background-color: rgb(79, 167, 167);
-    border: 1px dashed white;
+   width: 18%;
+   height: 300px;
+   background-color: rgb(79, 167, 167);
+   border: 1px dashed white;
 }
 
 .wrapper:last-child{
-    background-color: black;
+   background-color: black;
 }
 
 .wrapper:last-child .container{
-    padding-top: 10px;
+   padding-top: 10px;
 }
 /* FINE SEZIONE CENTRALE*/
 /* FINE MAIN */
 
 /* FOOTER */
-footer .col-100{
-    height: 50px;
-    background-color: rgb(162, 235, 192);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: none;
+
+.col-footer{
+   width: 100%;
+   border: 1px dashed black;
+}
+
+footer .col-footer{
+   height: 50px;
+   background-color: rgb(162, 235, 192);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border: none;
 }
 
 footer .container{
-    padding-bottom: 0px;
-    padding-top: 10px;
+   padding-bottom: 0px;
+   padding-top: 10px;
 }
 
 footer{
-    border-top: 1px solid white ;
+   border-top: 1px solid white ;
 }
 
 footer input{
-    background-color: rgb(241, 207, 228);
-    border: 1px dashed black;
-    padding: 3px;
+   background-color: rgb(241, 207, 228);
+   border: 1px dashed black;
+   padding: 3px;
 }
 /* FINE FOOTER */
 
