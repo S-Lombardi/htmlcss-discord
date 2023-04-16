@@ -72,6 +72,9 @@ body{
    color: white;
    font-size: 13px;
 }
+.immagini-laterali{
+   width: 500px;
+}
 /* Fine Utilità STYLE */
 /* FINE UTILITà */
 
@@ -118,7 +121,7 @@ header .col-20:last-child{
 /* JUMBOTRON */
 #jumbotron{
    background-image: url(../img/jumbo.png);
-   height: 600px;
+   height: 400px;
    background-size: cover;
    background-position: center;
    display: flex;
@@ -162,39 +165,30 @@ header .col-20:last-child{
    
 }
 /* PRIMA RIGA */
-.col-35{
-   width: 35%;
+.col-30{
+   width: calc(30% - 20px);
+   margin: 10px;
    border: 1px dashed black; 
    padding-top: 30px;
 }
-.col-55{
-   width: 55%;
-   border: 1px dashed black;
-   display: flex;
-   align-items: start;
-   justify-content: start;
-}
 
 .wrapper .col-70{
-   width: 70%;
+   width: calc(70% - 20px);
+   margin: 10px;
    border: 1px dashed black;
    
 }
 /* Contentuto prima riga */
-.col-35 h2 {
+.col-30 h2 {
    font-size: 35px;
    padding-bottom: 20px;
 }
 
-.col-35 p{
+.col-30 p{
    line-height: 25px;
    font-size: 15px;
 }
 
-.immagini-laterali{
-   min-width: 50%;
-
-}
 /* Fine Contentuto prima riga */
 /* FINE PRIMA RIGA */
 
