@@ -80,6 +80,18 @@ body{
 .immagini-laterali{
    width: 500px;
 }
+
+.wave{
+   width: 100%;
+   height: 100px;
+   background-image: url(../img/wave.svg);
+   opacity: 0.1;
+}
+
+.reverse{
+   transform: scaleY(-1);
+}
+
 /* Fine Utilità STYLE */
 /* FINE UTILITà */
 
@@ -172,8 +184,8 @@ header .col-20:last-child{
 
 
 /* SEZIONE CENTRALE*/
-.wrapper:nth-child(odd){
-   
+.bgopaque{
+   background-color: rgba(0,0,0,0.1);
    
 }
 /* PRIMA RIGA */

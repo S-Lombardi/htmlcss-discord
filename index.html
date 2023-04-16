@@ -1,30 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Struttura Discord</title>
-        <link rel="stylesheet" href="./css/style.css">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-       
-    </head>
-    <body>
-        <!-- background-color rinominato in wrapper-->
-        <!-- HEADER -->
-        <header>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struttura Discord</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- background-color rinominato in wrapper-->
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <!-- COL. LOGO -->
+                <div class="col-20">
+                    <img class="size-logo" src="./img/logo.svg" alt="logo">
+                </div>
+                <!-- COL. LINK -->
+                <div class="col-60">
+                    <ul>
+                        <li><a href="" class="link-style">Scarica</a></li>
+                        <li><a href="" class="link-style">Perchè Discord</a></li>
+                        <li><a href="" class="link-style">Nitro</a></li>
+                        <li><a href="" class="link-style">Sicurezza</a></li>
+                        <li><a href="" class="link-style">Assistenza</a></li>
+                    </ul>
+                </div>
+                <!-- COL. LOGIN -->
+                <div class="col-20">
+                    <input class="min-button" type="button" value="Accedi">
+                </div>
+            </div>
+            <!-- FINE RIGA HEADER -->
+        </div>
+    </header>
+    <!-- FINE HEADER -->
+
+    <!-- INIZIO MAIN -->
+    <main>
+        <!-- JUMBOTRON -->
+        <div id="jumbotron">
             <div class="container">
                 <div class="row">
-                    <!-- COL. LOGO -->
-                    <div class="col-20">
-                        <img class="size-logo" src="./img/logo.svg" alt="logo">
+                    <!-- TESTO JUMBOTRON -->
+                    <div class="col-70">
+                        <h1>Il tuo posto per parlare</h1>
+                        <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o
+                            semlicemente di un picccolo gruppo di amici che vuole passare il tempo assieme, Discord
+                            rende più facile chiacchierare ogni giorno e ritrovardi più spesso.</p>
+                        <div class="button-jumbotron">
+                            <!-- PULSANTI JUMBOTRON -->
+                            <input class="max-button" type="button" value=" &#129063; Scarica per il Mac">
+                            <input class="max-button dark" type="button" value=" Apri Discord nel tuo browser">
+                        </div>
                     </div>
-                    <!-- COL. LINK -->
-                    <div class="col-60">
+                </div>
+            </div>
+        </div>
+        <!-- SEZIONE CENTRALE-->
+        <!-- Prima riga -->
+        <div class="wrapper margin-100">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-70 flex-start">
+                        <!-- IMG RANA PRIMA COLONNA  -->
+                        <img class="immagini-laterali" src="img/item1.svg" alt="item1">
+                    </div>
+                    <div class="col-30">
+                        <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+                        <p>I server Dircord sono organizzati in canali tematici in cui puoi collaborare, condividere o
+                            semlicemente parlare della tua giornata senza intasare una chat di gruppo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Seconda riga-->
+        <div class="wave"></div>
+        <div class="wrapper bgopaque">
+            <div class="container">
+                <div class="row">
+                    <div class="col-70 flex-end">
+                        <!-- IMG MAGO E TAVOLINO -->
+                        <img class="immagini-laterali" src="img/item2.svg" alt="item2">
+                    </div>
+                    <div class="col-30 invert-order">
+                        <h2>Dove trovarti è facile</h2>
+                        <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere
+                            che sei lì e unirsi istantaneamente senza dover chiamare.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="wave reverse"></div>
+        <!-- Terza riga -->
+        <div class="wrapper  margin-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-70 flex-start">
+                        <!-- IMG LIBRO E PENNA -->
+                        <img class="immagini-laterali" src="img/item3.svg" alt="item3">
+                    </div>
+                    <div class="col-30">
+                        <h2>Da pochi a un fandom</h2>
+                        <p>Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai
+                            membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto
+                            altro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Quarta riga - BIG -->
+        <div class="wrapper margin-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-100">
+                        <h2>Tecnologia affidabile per tenersi in contatto</h2>
+                        <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai
+                            ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno
+                            con la condivisione schermo.</p>
+                        <img src="img/item4-big.svg" alt="item4">
+                        <section>
+                            <img src="./img/stars.svg" alt="stars">
+                            <h3>Pronto a iniziare la tua avventura?</h3>
+                            <input class="min-button violet" type="button" value=" &#129063; Scarica per il Mac">
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- FINE MAIN -->
+
+    <!-- INIZIO FOOTER -->
+    <footer class="background-dark">
+        <div class="wrapper">
+            <div class="container">
+                <div class="row margin-30">
+                    <!-- PRIMA COL - loghi-pagine-->
+                    <div class="col-40">
+                        <!-- Titolo-->
+                        <h3>Il tuo posto per <br> parlare</h3>
+                        <!-- Img bandiera-->
+                        <img src="./img/ita.png" alt="ita">
+                        <!-- ita-->
                         <ul>
+                            <li><a class="link-style" href="">Italiano</a></li>
+                        </ul>
+                        <!-- Loghi loghi pagine-->
+                        <div>!! !! !! !!</div>
+                    </div>
+                    <!-- FINE PRIMA COL-->
+
+                    <!-- QUATTRO COL - Link footer-->
+                    <!-- COL 1-->
+                    <div class="col-18">
+                        <!-- Prodotto -->
+                        <ul>
+                            <li>Prodotto</li>
                             <li><a href="" class="link-style">Scarica</a></li>
                             <li><a href="" class="link-style">Perchè Discord</a></li>
                             <li><a href="" class="link-style">Nitro</a></li>
@@ -32,164 +174,37 @@
                             <li><a href="" class="link-style">Assistenza</a></li>
                         </ul>
                     </div>
-                    <!-- COL. LOGIN -->
-                    <div class="col-20">
-                        <input class="min-button" type="button" value="Accedi">
+                    <!-- Compagnia-->
+                    <div class="col-18">
+                        <ul>
+                            <li>Compagnia</li>
+                            <li><a href="" class="link-style">Chi Siamo</a></li>
+                            <li><a href="" class="link-style">Lavora con noi</a></li>
+                            <li><a href="" class="link-style">Marchio</a></li>
+                            <li><a href="" class="link-style">Redazione</a></li>
+                            <li><a href="" class="link-style">Negozio</a></li>
+                        </ul>
                     </div>
-                </div>
-                <!-- FINE RIGA HEADER -->
-            </div>
-        </header>
-        <!-- FINE HEADER -->
-
-        <!-- INIZIO MAIN -->
-        <main>
-            <!-- JUMBOTRON -->
-            <div id="jumbotron">
-                <div class="container">
-                    <div class="row">
-                        <!-- TESTO JUMBOTRON -->
-                        <div class="col-70">
-                            <h1>Il tuo posto per parlare</h1>
-                            <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semlicemente di un picccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovardi più spesso.</p>
-                            <div class="button-jumbotron">
-                                <!-- PULSANTI JUMBOTRON -->
-                                <input class="max-button" type="button" value=" &#129063; Scarica per il Mac">
-                                <input class="max-button dark" type="button" value=" Apri Discord nel tuo browser">
-                            </div>
-                        </div>
+                    <!-- Risorse-->
+                    <div class="col-18">
+                        <ul>
+                            <li>Risorse</li>
+                            <li><a href="" class="link-style">Scarica</a></li>
+                            <li><a href="" class="link-style">Perchè Discord</a></li>
+                            <li><a href="" class="link-style">Nitro</a></li>
+                            <li><a href="" class="link-style">Sicrezza</a></li>
+                            <li><a href="" class="link-style">Assistenza</a></li>
+                            <li><a href="" class="link-style">Scarica</a></li>
+                            <li><a href="" class="link-style">Perchè Discord</a></li>
+                            <li><a href="" class="link-style">Nitro</a></li>
+                            <li><a href="" class="link-style">Sicurezza</a></li>
+                            <li><a href="" class="link-style">Assistenza</a></li>
+                            <li><a href="" class="link-style">Assistenza</a></li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-            <!-- SEZIONE CENTRALE-->
-            <!-- Prima riga -->
-            <div class="wrapper margin-100">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-70 flex-start">
-                            <!-- IMG RANA PRIMA COLONNA  -->
-                            <img class="immagini-laterali" src="img/item1.svg" alt="item1">
-                        </div>
-                        <div class="col-30">
-                            <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
-                            <p>I server Dircord sono organizzati in canali tematici in cui puoi collaborare, condividere o semlicemente parlare della tua giornata senza intasare una chat di gruppo.</p>
-                        </div>
-                    </div>
-                </div>  
-            </div>
-            <!-- Seconda riga-->
-            <div class="wrapper margin-100">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-70 flex-end">
-                            <!-- IMG MAGO E TAVOLINO -->
-                            <img class="immagini-laterali" src="img/item2.svg" alt="item2">
-                        </div>
-                        <div class="col-30 invert-order">
-                            <h2>Dove trovarti è facile</h2>
-                            <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.</p>
-                        </div>
-                    </div>
-                </div>  
-            </div>
-            <!-- Terza riga -->
-            <div class="wrapper margin-100">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-70 flex-start">
-                            <!-- IMG LIBRO E PENNA -->
-                            <img class="immagini-laterali" src="img/item3.svg" alt="item3">
-                        </div>
-                        <div class="col-30">
-                            <h2>Da pochi a un fandom</h2>
-                            <p>Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro</p>
-                        </div>
-                    </div>
-                </div>  
-            </div>
-            <!-- Quarta riga - BIG -->
-            <div class="wrapper margin-100">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-100">
-                            <h2>Tecnologia affidabile per tenersi in contatto</h2>
-                            <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
-                            <img src="img/item4-big.svg" alt="item4">
-                            <section>
-                                <img src="./img/stars.svg" alt="stars">
-                                <h3>Pronto a iniziare la tua avventura?</h3>
-                                <input class="min-button violet" type="button" value=" &#129063; Scarica per il Mac">
-                            </section>
-                        </div>
-                    </div>
-                </div>  
-            </div>
-        </main>
-        <!-- FINE MAIN -->
-        
-        <!-- INIZIO FOOTER -->
-        <footer class="background-dark">    
-            <div class="wrapper">
-                <div class="container">
-                    <div class="row margin-30">
-                        <!-- PRIMA COL - loghi-pagine-->
-                        <div class="col-40">
-                            <!-- Titolo-->
-                            <h3>Il tuo posto per <br> parlare</h3>
-                            <!-- Img bandiera-->
-                            <img src="./img/ita.png" alt="ita">
-                            <!-- ita-->
-                            <ul>
-                                <li><a class="link-style" href="">Italiano</a></li>
-                            </ul>
-                            <!-- Loghi loghi pagine-->
-                            <div>!! !! !! !!</div>
-                        </div>
-                        <!-- FINE PRIMA COL-->
-
-                        <!-- QUATTRO COL - Link footer-->
-                        <!-- COL 1-->
-                        <div class="col-18">
-                            <!-- Prodotto -->
-                            <ul>
-                                <li>Prodotto</li>
-                                <li><a href="" class="link-style">Scarica</a></li>
-                                <li><a href="" class="link-style">Perchè Discord</a></li>
-                                <li><a href="" class="link-style">Nitro</a></li>
-                                <li><a href="" class="link-style">Sicurezza</a></li>
-                                <li><a href="" class="link-style">Assistenza</a></li>
-                            </ul>
-                        </div>
-                        <!-- Compagnia-->
-                        <div class="col-18">
-                            <ul>
-                                <li>Compagnia</li>
-                                <li><a href="" class="link-style">Chi Siamo</a></li>
-                                <li><a href="" class="link-style">Lavora con noi</a></li>
-                                <li><a href="" class="link-style">Marchio</a></li>
-                                <li><a href="" class="link-style">Redazione</a></li>
-                                <li><a href="" class="link-style">Negozio</a></li>
-                            </ul>
-                        </div>
-                        <!-- Risorse-->
-                        <div class="col-18">
-                            <ul>
-                                <li>Risorse</li>
-                                <li><a href="" class="link-style">Scarica</a></li>
-                                <li><a href="" class="link-style">Perchè Discord</a></li>
-                                <li><a href="" class="link-style">Nitro</a></li>
-                                <li><a href="" class="link-style">Sicrezza</a></li>
-                                <li><a href="" class="link-style">Assistenza</a></li>
-                                <li><a href="" class="link-style">Scarica</a></li>
-                                <li><a href="" class="link-style">Perchè Discord</a></li>
-                                <li><a href="" class="link-style">Nitro</a></li>
-                                <li><a href="" class="link-style">Sicurezza</a></li>
-                                <li><a href="" class="link-style">Assistenza</a></li>
-                                <li><a href="" class="link-style">Assistenza</a></li>
-                            </ul>
-                        </div> 
-                        <!-- Norme-->
-                        <div class="col-18"><ul>
+                    <!-- Norme-->
+                    <div class="col-18">
+                        <ul>
                             <li>Norme</li>
                             <li><a href="" class="link-style">Scarica</a></li>
                             <li><a href="" class="link-style">Perchè Discord</a></li>
@@ -197,25 +212,26 @@
                             <li><a href="" class="link-style">Sicurezza</a></li>
                             <li><a href="" class="link-style">Assistenza</a></li>
                         </ul>
-                        </div>
                     </div>
-                </div>  
+                </div>
             </div>
+        </div>
 
-            <!-- LOGO-PULSANTE-->
-            <div class="wrapper">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-footer">
-                            <img class="size-logo" src="./img/logo.svg" alt="logo">
-                            <input class="min-button violet" type="button" value="Registrati">
-                        </div>
-                        
+        <!-- LOGO-PULSANTE-->
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-footer">
+                        <img class="size-logo" src="./img/logo.svg" alt="logo">
+                        <input class="min-button violet" type="button" value="Registrati">
                     </div>
-                </div>  
-            </div>
-        </footer>
-        <!-- FINE FOOTER -->
 
-    </body>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FINE FOOTER -->
+
+</body>
+
 </html>
