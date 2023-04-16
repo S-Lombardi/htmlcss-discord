@@ -262,7 +262,7 @@ header .col-20:last-child{
 
 
 /* FOOTER */
-/* PRIMA COL loghi-pagine*/
+/* PRIMA COL loghi pagine*/
 .col-40{
    width: 40%;
    border: 1px dashed rgb(255, 255, 255);
@@ -278,17 +278,39 @@ footer .col-40 h3{
    font-size: 20px;
    color: #909ddf;
 }
-/* img bandiera-ita*/
+/* img bandiera*/
 footer .col-40 img{
    width: 20px;
    margin-top: 20px;
 }
+/* lingue-italiano */
 footer .col-40 ul{
    list-style-type: none;
    display: inline-block;
    text-decoration: none;
 }
-/* FINE PRIMA COL loghi-pagine*/
+
+.col-40 li a i{
+   font-size: 7px;
+}
+
+.col-40 li a{
+   font-size: 10px;
+   line-height: 10px;
+   padding-bottom: 10px;
+   vertical-align: text-top;
+}
+
+/* loghi pagine  */
+.loghi-footer{
+   margin-top: 15px;
+}
+
+.loghi-footer a{
+   color: white;
+   margin-right: 15px;
+}
+/* FINE PRIMA COL loghi pagine*/
 
 /* QUATTRO COL - Link footer*/
 .col-18{
@@ -316,6 +338,7 @@ footer .col-40 ul{
    align-items: center;
    justify-content: space-between;
 }
+
 
 /* FINE Logo-Pulsante */
 /* FINE FOOTER */
