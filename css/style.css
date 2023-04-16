@@ -13,8 +13,8 @@ body{
    width: 70%;
    margin: auto;
    /* border: 2px solid black; */
-   padding-top: 30px;
-   padding-bottom: 30px;
+   /* padding-top: 30px;
+   padding-bottom: 30px; */
 }
 .row{
    display: flex;
@@ -33,6 +33,10 @@ body{
 }
 
 /* Utilità STYLE */
+.margin-100{
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
 .size-logo{
    width: 100px;
    vertical-align: middle;
@@ -241,10 +245,17 @@ header .col-20:last-child{
 /* FOOTER */
 /* PRIMA COL loghi-pagine*/
 .col-40{
-   width: 40%;
-   height: 300px;
+   width: calc(40% - 20px);
+   margin: 10px;
+   /* height: 300px; */
    border: 1px dashed rgb(255, 255, 255);
 }
+#space{
+   margin-bottom: 20px;
+   padding-top: 10px;
+}
+
+
 /* Titolo PRIMA COL*/
 footer .col-40 h3{
    font-size: 20px;
@@ -296,8 +307,6 @@ footer .col-40 ul{
 
 /* FINE Logo-Pulsante */
 /* FINE FOOTER */
-
-
 
 
 
