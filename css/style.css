@@ -326,6 +326,7 @@ footer .col-40 ul{
 .col-footer{
    width: 100%;
    padding-top: 30px;
+   padding-bottom: 100px;
    /* border: 1px dashed rgb(219, 209, 209); */
    border-top: 1px solid #8ea1e1;
    background-color: #23272a;
